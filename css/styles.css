@@ -1,0 +1,324 @@
+/* Reset general */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Tipografía */
+html {
+	font-family: poppins;
+}
+/* Encabezado */
+header {
+	background-image: url(../assets/img/Fondo-Encabezado.png);
+    height: 700px;
+}
+
+.logo-2023 {
+	position: absolute;
+	top: 25px;
+	left: 40px;
+	margin: 0px;
+}
+
+.navbar {
+	list-style: none;
+	text-align: center;
+}
+
+.navbar li a {
+	text-decoration: none;  
+	color: #00001F;
+}
+
+.vector {
+	position: absolute;
+	top: 40px;
+	left: 1250px;
+	margin: 0px;
+}
+
+.llevamos {
+	position: absolute;
+	top: 310px;
+	left: 250px;
+	font-size: 25px;
+}
+
+.nivel {
+	position: absolute;
+	top: 350px;
+	left: 250px;
+	font-size: 55px;
+}
+
+.parrafo {
+	position: absolute;
+	top: 460px;
+	left: 250px;
+	font-size: 14px;
+}
+
+.cohete {
+	text-align: right;
+	position: absolute;
+	top: 60px;
+	left: 680px;
+}
+
+/* Navegación */
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	padding: 50px;
+	text-decoration: none;
+	color: #000;
+}
+
+/* Contenido principal */
+main {
+	background-color: darkblue;
+}
+
+.imagen {
+	margin: auto;
+	position: absolute;
+	left: 350px;
+	top: 800px;
+}
+
+.texto {
+	text-align: center;
+	position: absolute;
+	top: 750px;
+    margin-left: 500px;
+	font-size: 20px;
+}
+.Quieres{
+    position: absolute;
+    top: 785px;
+    margin-left: 584px;
+    font-size: x-large;
+
+}
+.mi-footer {
+    background-color: #00001F;
+    position: absolute;
+    top: 1400px;
+    width: 100%;
+    height: 10%;
+    color: white;
+    text-overflow: clip;
+
+
+  }
+/* Estilos para el header */
+
+main{
+    background-color:white;
+}
+.direccion{
+    text-align: end;
+/* Estilos de html Por qué creativo */
+    
+}.porque{
+    text-align: center;
+    font-size: x-large;
+    position: absolute;
+    top: 720px;
+    left: 640px;
+
+}.titulo{
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    top: 738px;
+    left: 570px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+  .box {
+    width: 500px;
+    height: 420px;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .box img {
+    max-width: 100px;
+    margin-bottom: 2px;
+    text-align: justify
+  }
+  .boxed{
+    width: 700px;
+    height: 120px;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: small;
+    background-color:#0070C7;
+    color: white;
+  }
+  .testimoniales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top:auto;
+    font-size: small;
+  }
+
+.caja{
+    width: 900px;
+    height: 500px;
+    text-align:justify;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: small;
+    background-color:#0070C7;
+    color: white;
+}
+      button {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        font-size: 1.2em;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background-color: #0062cc;
+      }
+.card{
+  width: 900px;
+    height: 500px;
+    text-align:justify;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    background-color:#0070C7;
+    color: white;
+}
+
+/* Estilos Container Planes */
+
+.container-grid {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template: repeat(3, 1fr) /repeat(3, 1fr); 
+  gap: 10px;
+}
+
+.item1 {
+  height: 600px;
+  text-align:center;
+  padding: 70px;
+  margin: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  color: #000000;
+}
+.button{
+  background-color: #042d7a;
+}
+/* Estilos Container Servicios */
+
+.container-grid2{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template: repeat(3, 1fr) /repeat(3, 1fr); 
+  gap: 10px;
+}
+.service1{
+  flex: 1;
+  height: 300px;
+  text-align: center;
+  padding: 70px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 11px;
+  color: #000000;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.section1 {
+  flex: 1;
+}
+
+.section2 {
+  flex: 1;
+  text-align: center;
+}
+
+.section2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section2 li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.section2 a {
+  color: #333;
+  font-size: 20px;
+}
+
+.section3 {
+  flex: 1;
+  text-align: right;
+}
+@media(max-width:1024px){
+.navbar{
+  list-style: none;
+	text-align: center;
+}
+  
+}
