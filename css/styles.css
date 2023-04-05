@@ -316,9 +316,23 @@ footer {
   text-align: right;
 }
 @media(max-width:1024px){
-.navbar{
-  list-style: none;
-	text-align: center;
-}
+  .llevamos{
+    top: 32%;
+    left: 40px;
+  }
+  
+  .nivel{
+    top: 36%;
+    left: 40px;
+  }
+  
+  .parrafo{
+    top: 50%;
+    left: 40px;
+  }
+
+  .navbar{
+  position: relative;
+  }
   
 }
