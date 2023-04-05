@@ -332,7 +332,24 @@ footer {
   }
 
   .navbar{
-  position: relative;
+  text-align: left;
+  list-style-position: inside;
+  margin-right: 30px;
+  }
+
+  .navbar li a {
+    padding: 20px 10px;
+  }
+  
+  .container-grid2 {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 5px;
+  }
+  .service1 {
+    padding: 30px;
+    margin: 10px;
+    height: auto;
+    font-size: 10px;
   }
   
 }
