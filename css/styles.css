@@ -278,6 +278,36 @@ main{
   font-size: 11px;
   color: #000000;
 }
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #042d7a;
+  padding: 10px;
+}
+
+.product-info h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.product-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.product-price {
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 30px;
+}
+
+.cart-total {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 50px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
