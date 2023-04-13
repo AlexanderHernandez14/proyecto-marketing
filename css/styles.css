@@ -76,6 +76,10 @@ header {
 	left: 680px;
 }
 
+.cohete1 {
+  width: 700px;
+}
+
 /* Navegación */
 nav ul {
 	list-style: none;
