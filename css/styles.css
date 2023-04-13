@@ -22,6 +22,10 @@ header {
 	margin: 0px;
 }
 
+.logo-creativo{
+  width: 350px;
+}
+
 .navbar {
 	list-style: none;
 	text-align: center;
