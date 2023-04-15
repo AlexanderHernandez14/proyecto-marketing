@@ -17,18 +17,18 @@ header {
 
 .logo-2023 {
 	position: absolute;
-	top: 25px;
+	top: 60px;
 	left: 40px;
 	margin: 0px;
 }
 
 .logo-creativo{
-  width: 350px;
+  width: 300px;
 }
 
 .navbar {
 	list-style: none;
-	text-align: center;
+  text-align: center;
 }
 
 .navbar li a {
@@ -36,16 +36,13 @@ header {
 	color: #00001F;
 }
 
-.vector {
-	position: absolute;
-	top: 40px;
-	left: 1250px;
-	margin: 0px;
-  width: 30px;
+.cohete-redes{
+  width: 620px;
 }
 
+
 .carro{
-  width: 30px;
+  width: 25px;
 }
 
 .llevamos {
@@ -72,12 +69,12 @@ header {
 .cohete {
 	text-align: right;
 	position: absolute;
-	top: 60px;
-	left: 680px;
+	top: 80px;
+	left: 720px;
 }
 
 .cohete1 {
-  width: 700px;
+  width: 600px;
 }
 
 /* Navegación */
