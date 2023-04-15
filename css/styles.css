@@ -12,7 +12,7 @@ html {
 /* Encabezado */
 header {
 	background-image: url(../assets/img/Fondo-Encabezado.png);
-    height: 700px;
+    height: 600px;
 }
 
 .logo-2023 {
@@ -145,14 +145,14 @@ main{
     text-align: center;
     font-size: x-large;
     position: absolute;
-    top: 720px;
+    top: 620px;
     left: 640px;
 
 }.titulo{
     text-align: center;
     font-size: 16px;
     position: absolute;
-    top: 738px;
+    top: 638px;
     left: 570px;
 }
 .container {
