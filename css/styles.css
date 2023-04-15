@@ -287,6 +287,7 @@ main{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-size: 11px;
   color: #000000;
+  
 }
 .cart-item {
   display: flex;
