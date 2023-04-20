@@ -424,3 +424,67 @@ footer {
   
 }
 
+@media (max-width: 768px) {
+  .llevamos {
+    top: 50%;
+    left: 80px;
+  }
+  
+  .nivel {
+    top: 55%;
+    left: 80px;
+  }
+  
+  .parrafo {
+    top: 75%;
+    left: 80px;
+  }
+
+  .navbar {
+    text-align:center;
+    list-style-position: inside;
+    margin-right: 30px;
+  }
+
+  .navbar li a {
+    padding: 20px 10px;
+  }
+  
+  .imagen {
+    margin: auto;
+    position: absolute;
+    left: 60px;
+    top: 800px;
+  }
+
+  .cohete {
+    text-align: right;
+	  position: absolute;
+	  top: 80px;
+	  left: 500px;
+  }
+
+  .cohete1 {
+    width: 550px;
+  }
+
+  .texto {
+    text-align: center;
+    position: absolute;
+    top: 650px;
+    margin-left: 320px;
+    font-size: 20px;
+  }
+
+  .Quieres {
+    position: absolute;
+    top: 685px;
+    margin-left: 400px;
+    font-size: x-large;
+  }
+
+  .cohete-redes {
+    position: absolute;
+    left: 120px;
+  }
+}
