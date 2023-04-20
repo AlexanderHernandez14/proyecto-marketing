@@ -356,6 +356,8 @@ footer {
   flex: 1;
   text-align: right;
 }
+/* Estilos media queris 1024 */
+
 @media(max-width:1024px){
   .llevamos{
     top: 32%;
