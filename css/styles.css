@@ -443,7 +443,8 @@ footer {
   .navbar {
     text-align:center;
     list-style-position: inside;
-    margin-right: 30px;
+    margin-right:2px;
+    margin-left:200px;
   }
 
   .navbar li a {
@@ -465,7 +466,7 @@ footer {
   }
 
   .cohete1 {
-    width: 550px;
+    width: 500px;
   }
 
   .texto {
@@ -487,4 +488,14 @@ footer {
     position: absolute;
     left: 120px;
   }
+
+.mi-footer{
+  background-color: #00001F;
+    position: absolute;
+    top: 1400px;
+    width: 130%;
+    height: 10%;
+    color: white;
+    text-overflow: clip;
+}
 }
