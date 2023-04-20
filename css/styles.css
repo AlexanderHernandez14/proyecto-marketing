@@ -423,19 +423,3 @@ footer {
   }
   
 }
-
-@media(max-width:768px){
-
-  .navbar{
-    text-align: center;
-    list-style-position: inside;
-    margin-right: 30px;
-    }
-
-
-
-
-
-
-
-}
