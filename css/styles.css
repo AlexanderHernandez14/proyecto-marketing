@@ -359,6 +359,12 @@ footer {
 /* Estilos media queris 1024 */
 
 @media(max-width:1024px){
+
+  header {
+    background-image: url(../assets/img/Fondo-Encabezado.png);
+      height: 600px;
+      width: 1040px;
+  }
   .llevamos{
     top: 50%;
     left: 80px;
@@ -421,10 +427,25 @@ footer {
     position: absolute;
     left: 120px;
   }
+  .mi-footer{
+    background-color: #00001F;
+      position: absolute;
+      top: 1400px;
+      width: 100%;
+      height: 10%;
+      color: white;
+      text-overflow: clip;
+  }
   
 }
 
 @media (max-width: 768px) {
+
+  header {
+    background-image: url(../assets/img/Fondo-Encabezado.png);
+      height: 600px;
+      width: 1024px;
+  }
   .llevamos {
     top: 50%;
     left: 80px;
@@ -493,7 +514,7 @@ footer {
   background-color: #00001F;
     position: absolute;
     top: 1400px;
-    width: 130%;
+    width: 133%;
     height: 10%;
     color: white;
     text-overflow: clip;
