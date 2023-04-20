@@ -439,6 +439,8 @@ footer {
   
 }
 
+/* Estilos media queris 768 */
+
 @media (max-width: 768px) {
 
   header {
@@ -520,3 +522,39 @@ footer {
     text-overflow: clip;
 }
 }
+
+/* Estilos media queris 425 */
+
+@media (max-width: 425px) {
+
+  header {
+    background-image: url(../assets/img/Fondo-Encabezado.png);
+      height: 600px;
+      width: 1024px;
+  }
+  .llevamos {
+    top: 50%;
+    left: 100px; 
+    font-size: medium;
+  }
+  
+  .nivel {
+    top: 55%;
+    left: 100px;
+    font-size: 30px;
+  }
+  
+  .cohete{
+    text-align: right;
+	position: absolute;
+	top: 90px;
+	left: 400px;
+  }
+
+  .cohete1{
+    width: 450px;
+  }
+
+  .parrafo{
+text-align: left;
+  }
